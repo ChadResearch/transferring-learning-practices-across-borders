@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Except docs/ (rendered HTML for GitHub Pages)
+!docs/
+!docs/**
+
+# But still ignore .DS_Store inside docs
+docs/.DS_Store
+docs/**/.DS_Store
+
+# Keep .gitignore itself
+!.gitignore
